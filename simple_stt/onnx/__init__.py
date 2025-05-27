@@ -1,0 +1,6 @@
+from .ctpunc_offline import CTPuncOfflineOnnx
+from .ctpunc_online import CTPuncOnlineOnnx
+from .fsmnvad_online import FsmnVadOnlineOnnx
+from .paraformer_offline import ParaformerOfflineOnnx
+from .paraformer_online import ParaformerOnlineOnnx
+from .seacoparaformer_offline import SeacoParaformerOfflineOnnx
