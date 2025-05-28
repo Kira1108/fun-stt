@@ -107,7 +107,7 @@ if __name__ == "__main__":
     
     nfiles = 200
     current = 0
-    for fp in Path("./aishell").glob("*.wav"):
+    for fp in Path("./data-16k").glob("*.wav"):
         print(f"Processing {fp.name} ...")
         data = process_wav(str(fp))
         with open(Path("outputs") / f"{fp.stem}.json","w") as f:
